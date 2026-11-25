@@ -13,7 +13,7 @@ $msg = '';
 function sanitize($v) { return htmlspecialchars(trim($v), ENT_QUOTES); }
 
 // ============================================================
-//  ACCIONES CRUD
+//  ACCIONES CRUD ajjajajaj
 // ============================================================
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $accion = $_POST['accion'] ?? '';
